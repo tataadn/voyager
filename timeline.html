@@ -27,9 +27,57 @@
     <!-- Content -->
     <link rel="stylesheet" href="css/mdb.min.css" />
     <link rel="stylesheet" href="css/mdb.timeline.css" />
+    <link rel="stylesheet" href="css/mdb.navbar.css" />
   </head>
   <body>
     <!-- Start your project here-->
+    <section class="">
+      <!-- Navbar -->
+      <nav class="navbar mask-custom navbar-expand-lg fixed-top navbar-scroll">
+        <div class="container">
+          <img src="img/voyager-logo.png" height="70" alt="" loading="lazy" />
+          <button
+            class="navbar-toggler ps-0"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarExample01"
+            aria-controls="navbarExample01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span
+              class="navbar-toggler-icon d-flex justify-content-start align-items-center"
+            >
+              <i class="fas fa-bars"></i>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarExample01">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="#news"
+                  ><b>What is Voyager?</b></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#pets"
+                  ><b>Mission Timeline</b></a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="#adoptions"
+                  ><b>Golden Record</b></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar -->
+    </section>
+    
     <section>
       <!-- hero -->
       <div
@@ -37,21 +85,23 @@
         style="background-image: url('img/starry-night-sky.jpg'); height: 100%"
       >
         <div style="background-color: rgba(0, 0, 0, 0.5)">
-          <div class="row text-center text-white p-4">
+          <div class="row text-center text-white pt-5">
             <div class="col">
-              <h1 class="display-4 fw-bold">Voyager's Mission Timeline</h1>
+              <h1 class="display-4 fw-bold pt-5">Voyager's Mission Timeline</h1>
             </div>
           </div>
           <div class="container">
+              <i class="fab fa-instagram"></i>
+            </a>
             <div class="row">
               <div class="col">
                 <div class="main-timeline">
-                  <div class="timeline left">
-                    <div
-                      class="card"
-                      data-aos="fade-up"
-                      data-aos-duration="2000"
-                    >
+                  <div
+                    class="timeline left"
+                    data-aos="fade-up"
+                    data-aos-duration="2000"
+                  >
+                    <div class="card">
                       <div class="card-body p-4">
                         <h6>(1 Juli 1972)</h6>
                         <h3>Proyek Dimulai</h3>
@@ -65,12 +115,12 @@
                       </div>
                     </div>
                   </div>
-                  <div class="timeline right">
-                    <div
-                      class="card"
-                      data-aos="fade-up"
-                      data-aos-duration="2000"
-                    >
+                  <div
+                    class="timeline right"
+                    data-aos="fade-up"
+                    data-aos-duration="2000"
+                  >
+                    <div class="card">
                       <div class="card-body p-4">
                         <h6>(Maret 1977)</h6>
                         <h3>"Voyager"</h3>
@@ -81,12 +131,12 @@
                       </div>
                     </div>
                   </div>
-                  <div class="timeline left">
-                    <div
-                      class="card"
-                      data-aos="fade-up"
-                      data-aos-duration="2000"
-                    >
+                  <div
+                    class="timeline left"
+                    data-aos="fade-up"
+                    data-aos-duration="2000"
+                  >
+                    <div class="card">
                       <div class="card-body p-4">
                         <h6>(20 Agustus 1977)</h6>
                         <h3>Peluncuran Voyager 2</h3>
@@ -98,12 +148,12 @@
                       </div>
                     </div>
                   </div>
-                  <div class="timeline right">
-                    <div
-                      class="card"
-                      data-aos="fade-up"
-                      data-aos-duration="2000"
-                    >
+                  <div
+                    class="timeline right"
+                    data-aos="fade-up"
+                    data-aos-duration="2000"
+                  >
+                    <div class="card">
                       <div class="card-body p-4">
                         <h6>(5 September 1977)</h6>
                         <h3>Peluncuran Voyager 1</h3>
@@ -114,12 +164,12 @@
                       </div>
                     </div>
                   </div>
-                  <div class="timeline left">
-                    <div
-                      class="card"
-                      data-aos="fade-up"
-                      data-aos-duration="2000"
-                    >
+                  <div
+                    class="timeline left"
+                    data-aos="fade-up"
+                    data-aos-duration="2000"
+                  >
+                    <div class="card">
                       <div class="card-body p-4">
                         <h6>(6 September 1977)</h6>
                         <h3>Voyager 1 melihat Bumi dan Bulan</h3>
@@ -130,12 +180,12 @@
                       </div>
                     </div>
                   </div>
-                  <div class="timeline right">
-                    <div
-                      class="card"
-                      data-aos="fade-up"
-                      data-aos-duration="2000"
-                    >
+                  <div
+                    class="timeline right"
+                    data-aos="fade-up"
+                    data-aos-duration="2000"
+                  >
+                    <div class="card">
                       <div class="card-body p-4">
                         <h6>(5 Maret 1979)</h6>
                         <h3>Voyager 1 bertemu Jupiter</h3>
@@ -148,12 +198,12 @@
                       </div>
                     </div>
                   </div>
-                  <div class="timeline left">
-                    <div
-                      class="card"
-                      data-aos="fade-up"
-                      data-aos-duration="2000"
-                    >
+                  <div
+                    class="timeline left"
+                    data-aos="fade-up"
+                    data-aos-duration="2000"
+                  >
+                    <div class="card">
                       <div class="card-body p-4">
                         <h6>(9 Juli 1979)</h6>
                         <h3>Voyager 2 bertemu Jupiter</h3>
@@ -165,12 +215,12 @@
                       </div>
                     </div>
                   </div>
-                  <div class="timeline right">
-                    <div
-                      class="card"
-                      data-aos="fade-up"
-                      data-aos-duration="2000"
-                    >
+                  <div
+                    class="timeline right"
+                    data-aos="fade-up"
+                    data-aos-duration="2000"
+                  >
+                    <div class="card">
                       <div class="card-body p-4">
                         <h6>(9 November 1980)</h6>
                         <h3>Voyager 1 bertemu Saturnus</h3>
@@ -184,12 +234,12 @@
                       </div>
                     </div>
                   </div>
-                  <div class="timeline left">
-                    <div
-                      class="card"
-                      data-aos="fade-up"
-                      data-aos-duration="2000"
-                    >
+                  <div
+                    class="timeline left"
+                    data-aos="fade-up"
+                    data-aos-duration="2000"
+                  >
+                    <div class="card">
                       <div class="card-body p-4">
                         <h6>(25 Agustus 1981)</h6>
                         <h3>Voyager 2 bertemu Saturnus</h3>
@@ -202,12 +252,12 @@
                       </div>
                     </div>
                   </div>
-                  <div class="timeline right">
-                    <div
-                      class="card"
-                      data-aos="fade-up"
-                      data-aos-duration="2000"
-                    >
+                  <div
+                    class="timeline right"
+                    data-aos="fade-up"
+                    data-aos-duration="2000"
+                  >
+                    <div class="card">
                       <div class="card-body p-4">
                         <h6>(24 Januari 1986)</h6>
                         <h3>Voyager 2 bertemu Uranus</h3>
@@ -222,12 +272,12 @@
                       </div>
                     </div>
                   </div>
-                  <div class="timeline left">
-                    <div
-                      class="card"
-                      data-aos="fade-up"
-                      data-aos-duration="2000"
-                    >
+                  <div
+                    class="timeline left"
+                    data-aos="fade-up"
+                    data-aos-duration="2000"
+                  >
+                    <div class="card">
                       <div class="card-body p-4">
                         <h6>(25 Agustus 1989)</h6>
                         <h3>Voyager 2 bertemu Neptunus</h3>
@@ -242,12 +292,12 @@
                       </div>
                     </div>
                   </div>
-                  <div class="timeline right">
-                    <div
-                      class="card"
-                      data-aos="fade-up"
-                      data-aos-duration="2000"
-                    >
+                  <div
+                    class="timeline right"
+                    data-aos="fade-up"
+                    data-aos-duration="2000"
+                  >
+                    <div class="card">
                       <div class="card-body p-4">
                         <h6>(10 Oktober dan 5 Desember 1989)</h6>
                         <h3>Kamera Voyager 2 Mati</h3>
@@ -260,12 +310,12 @@
                       </div>
                     </div>
                   </div>
-                  <div class="timeline left">
-                    <div
-                      class="card"
-                      data-aos="fade-up"
-                      data-aos-duration="2000"
-                    >
+                  <div
+                    class="timeline left"
+                    data-aos="fade-up"
+                    data-aos-duration="2000"
+                  >
+                    <div class="card">
                       <div class="card-body p-4">
                         <h6>(14 Februari 1990)</h6>
                         <h3>Titik Biru Pucat dan Lainnya</h3>
@@ -282,12 +332,12 @@
                       </div>
                     </div>
                   </div>
-                  <div class="timeline right">
-                    <div
-                      class="card"
-                      data-aos="fade-up"
-                      data-aos-duration="2000"
-                    >
+                  <div
+                    class="timeline right"
+                    data-aos="fade-up"
+                    data-aos-duration="2000"
+                  >
+                    <div class="card">
                       <div class="card-body p-4">
                         <h6>(17 Februari 1998)</h6>
                         <h3>Runner Marathon</h3>
@@ -298,12 +348,12 @@
                       </div>
                     </div>
                   </div>
-                  <div class="timeline left">
-                    <div
-                      class="card"
-                      data-aos="fade-up"
-                      data-aos-duration="2000"
-                    >
+                  <div
+                    class="timeline left"
+                    data-aos="fade-up"
+                    data-aos-duration="2000"
+                  >
+                    <div class="card">
                       <div class="card-body p-4">
                         <h6>(16 Desember 2004)</h6>
                         <h3>Voyager 1 melintasi Termination Shock</h3>
@@ -321,12 +371,12 @@
                       </div>
                     </div>
                   </div>
-                  <div class="timeline right">
-                    <div
-                      class="card"
-                      data-aos="fade-up"
-                      data-aos-duration="2000"
-                    >
+                  <div
+                    class="timeline right"
+                    data-aos="fade-up"
+                    data-aos-duration="2000"
+                  >
+                    <div class="card">
                       <div class="card-body p-4">
                         <h6>(30 agustus 2007)</h6>
                         <h3>Voyager 2 melintasi Termination Shock</h3>
@@ -339,12 +389,12 @@
                       </div>
                     </div>
                   </div>
-                  <div class="timeline left">
-                    <div
-                      class="card"
-                      data-aos="fade-up"
-                      data-aos-duration="2000"
-                    >
+                  <div
+                    class="timeline left"
+                    data-aos="fade-up"
+                    data-aos-duration="2000"
+                  >
+                    <div class="card">
                       <div class="card-body p-4">
                         <h6>(13 agustus 2012)</h6>
                         <h3>The Ultimate Workhorse</h3>
@@ -357,12 +407,12 @@
                       </div>
                     </div>
                   </div>
-                  <div class="timeline right">
-                    <div
-                      class="card"
-                      data-aos="fade-up"
-                      data-aos-duration="2000"
-                    >
+                  <div
+                    class="timeline right"
+                    data-aos="fade-up"
+                    data-aos-duration="2000"
+                  >
+                    <div class="card">
                       <div class="card-body p-4">
                         <h6>(25 agustus 2012)</h6>
                         <h3>
@@ -379,12 +429,12 @@
                       </div>
                     </div>
                   </div>
-                  <div class="timeline left">
-                    <div
-                      class="card"
-                      data-aos="fade-up"
-                      data-aos-duration="2000"
-                    >
+                  <div
+                    class="timeline left"
+                    data-aos="fade-up"
+                    data-aos-duration="2000"
+                  >
+                    <div class="card">
                       <div class="card-body p-4">
                         <h6>(9 april 2013)</h6>
                         <h3>Dering Ruang Antarbintang</h3>
@@ -400,12 +450,12 @@
                       </div>
                     </div>
                   </div>
-                  <div class="timeline right">
-                    <div
-                      class="card"
-                      data-aos="fade-up"
-                      data-aos-duration="2000"
-                    >
+                  <div
+                    class="timeline right"
+                    data-aos="fade-up"
+                    data-aos-duration="2000"
+                  >
+                    <div class="card">
                       <div class="card-body p-4">
                         <h6>(5 November 2018)</h6>
                         <h3>Voyager 2 Memasuki Ruang Antarbintang</h3>
@@ -416,12 +466,12 @@
                       </div>
                     </div>
                   </div>
-                  <div class="timeline left">
-                    <div
-                      class="card"
-                      data-aos="fade-up"
-                      data-aos-duration="2000"
-                    >
+                  <div
+                    class="timeline left"
+                    data-aos="fade-up"
+                    data-aos-duration="2000"
+                  >
+                    <div class="card">
                       <div class="card-body p-4">
                         <h6>(26 Maret 2020)</h6>
                         <h3>Meninjau Kembali Data Voyager 2</h3>
@@ -436,12 +486,12 @@
                       </div>
                     </div>
                   </div>
-                  <div class="timeline right">
-                    <div
-                      class="card"
-                      data-aos="fade-up"
-                      data-aos-duration="2000"
-                    >
+                  <div
+                    class="timeline right"
+                    data-aos="fade-up"
+                    data-aos-duration="2000"
+                  >
+                    <div class="card">
                       <div class="card-body p-4">
                         <h6>(Sekarang)</h6>
                         <h3>Kedua Voyager Masih Bekerja</h3>
