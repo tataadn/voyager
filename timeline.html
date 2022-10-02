@@ -9,11 +9,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>Voyager</title>
     <!-- MDB icon -->
-    <link
-      rel="icon"
-      href="../public/img/golden-record.png"
-      type="image/x-icon"
-    />
+    <link rel="icon" href="img/golden-record.png" type="image/x-icon" />
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
@@ -24,27 +20,439 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
     />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- Content -->
-    <link rel="stylesheet" href="../public/css/mdb.min.css" />
-    <link rel="stylesheet" href="../public/css/mdb.navbar.css" />
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/mdb.timeline.css" />
   </head>
   <body>
     <!-- Start your project here-->
     <section>
       <!-- hero -->
       <div
-        class="p-3 text-center bg-image"
-        style="
-          background-image: url('../public/img/starry-night-sky.jpg');
-          height: 100%;
-        "
+        class="p-3 bg-image"
+        style="background-image: url('img/starry-night-sky.jpg'); height: 100%"
       >
         <div style="background-color: rgba(0, 0, 0, 0.5)">
-          <div class="text-white">
-            <div class="container">
-              <div class="row">
-                <div class="col">
-                  <h1 class="display-4 fw-bold">Voyager's Mission Timeline</h1>
+          <div class="row text-center text-white p-4">
+            <div class="col">
+              <h1 class="display-4 fw-bold">Voyager's Mission Timeline</h1>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="main-timeline">
+                  <div class="timeline left">
+                    <div
+                      class="card"
+                      data-aos="fade-up"
+                      data-aos-duration="2000"
+                    >
+                      <div class="card-body p-4">
+                        <h6>(1 Juli 1972)</h6>
+                        <h3>Proyek Dimulai</h3>
+                        <p class="mb-0">
+                          Awalnya bernama misi "Mariner Jupiter/Saturnus 1977"
+                          yang bertujuan untuk terbang melintasi Jupiter dan
+                          Saturnus dan membangun di atas warisan pesawat ruang
+                          angkasa Mariner sebelumnya yang terbang melalui Venus,
+                          Mars dan Merkurius.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="timeline right">
+                    <div
+                      class="card"
+                      data-aos="fade-up"
+                      data-aos-duration="2000"
+                    >
+                      <div class="card-body p-4">
+                        <h6>(Maret 1977)</h6>
+                        <h3>"Voyager"</h3>
+                        <p class="mb-0">
+                          Proyek Mariner Jupiter/Saturnus berganti nama menjadi
+                          Voyager.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="timeline left">
+                    <div
+                      class="card"
+                      data-aos="fade-up"
+                      data-aos-duration="2000"
+                    >
+                      <div class="card-body p-4">
+                        <h6>(20 Agustus 1977)</h6>
+                        <h3>Peluncuran Voyager 2</h3>
+                        <p class="mb-0">
+                          Dinamakan Voyager 2 karena meski diluncurkan lebih
+                          dulu, Voyager 2 direncanakan akan mencapai Jupiter dan
+                          Saturnus setelah Voyager 1
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="timeline right">
+                    <div
+                      class="card"
+                      data-aos="fade-up"
+                      data-aos-duration="2000"
+                    >
+                      <div class="card-body p-4">
+                        <h6>(5 September 1977)</h6>
+                        <h3>Peluncuran Voyager 1</h3>
+                        <p class="mb-0">
+                          Meskipun diluncurkan kedua karena Voyager 1 akan
+                          mencapai Jupiter dan Saturnus terlebih dahulu
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="timeline left">
+                    <div
+                      class="card"
+                      data-aos="fade-up"
+                      data-aos-duration="2000"
+                    >
+                      <div class="card-body p-4">
+                        <h6>(6 September 1977)</h6>
+                        <h3>Voyager 1 melihat Bumi dan Bulan</h3>
+                        <p class="mb-0">
+                          Voyager 1 mengembalikan foto pesawat ruang angkasa
+                          pertama Bumi dan Bulan
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="timeline right">
+                    <div
+                      class="card"
+                      data-aos="fade-up"
+                      data-aos-duration="2000"
+                    >
+                      <div class="card-body p-4">
+                        <h6>(5 Maret 1979)</h6>
+                        <h3>Voyager 1 bertemu Jupiter</h3>
+                        <p class="mb-0">
+                          Voyager 1 melakukan pendekatan terdekatnya ke Jupiter
+                          dan mengirimkan data yang terjadi pada Jupiter
+                          sehingga dapat diteliti lebih dalam berdasarkan data
+                          tersebut
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="timeline left">
+                    <div
+                      class="card"
+                      data-aos="fade-up"
+                      data-aos-duration="2000"
+                    >
+                      <div class="card-body p-4">
+                        <h6>(9 Juli 1979)</h6>
+                        <h3>Voyager 2 bertemu Jupiter</h3>
+                        <p class="mb-0">
+                          Voyager 2 menyusul untuk melakukan pendekatan
+                          terdekatnya ke Jupiter dan mengirimkan beberapa data
+                          baru.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="timeline right">
+                    <div
+                      class="card"
+                      data-aos="fade-up"
+                      data-aos-duration="2000"
+                    >
+                      <div class="card-body p-4">
+                        <h6>(9 November 1980)</h6>
+                        <h3>Voyager 1 bertemu Saturnus</h3>
+                        <p class="mb-0">
+                          Voyager 1 melakukan pendekatan terdekatnya dengan
+                          bulan terbesar Saturnus yaitu Titan dan Saturnus itu
+                          sendiri. Sorotan dari pertemuan Saturnus termasuk
+                          pertemuan tiga bulan yaitu Atlas, Prometheus dan
+                          Pandora
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="timeline left">
+                    <div
+                      class="card"
+                      data-aos="fade-up"
+                      data-aos-duration="2000"
+                    >
+                      <div class="card-body p-4">
+                        <h6>(25 Agustus 1981)</h6>
+                        <h3>Voyager 2 bertemu Saturnus</h3>
+                        <p class="mb-0">
+                          Voyager 2 melakukan pendekatan terdeklat ke Saturnus.
+                          Sorotan termasuk pertemuan dekat dengan beberapa bulan
+                          es Saturnus yaitu Tethys, lapetus dan beberapa bulan
+                          lainnya yang ditemukan Voyager 1
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="timeline right">
+                    <div
+                      class="card"
+                      data-aos="fade-up"
+                      data-aos-duration="2000"
+                    >
+                      <div class="card-body p-4">
+                        <h6>(24 Januari 1986)</h6>
+                        <h3>Voyager 2 bertemu Uranus</h3>
+                        <p class="mb-0">
+                          Voyager 2 melakukan pendekatan terdekatnya ke Uranus,
+                          pertama kalinya planet ketujuh dari Matahari terlihat
+                          dari dekat. Saat mendekat gambar voyager 2
+                          mengungkapkan 11 bulan baru yaitu Puck, Juliet,
+                          Portia, Cressida, Desdemona, Rosalind, Belinda,
+                          Perdita, Cordelia, Ophelia dan Bianca
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="timeline left">
+                    <div
+                      class="card"
+                      data-aos="fade-up"
+                      data-aos-duration="2000"
+                    >
+                      <div class="card-body p-4">
+                        <h6>(25 Agustus 1989)</h6>
+                        <h3>Voyager 2 bertemu Neptunus</h3>
+                        <p class="mb-0">
+                          Hal ini menjadikan pesawat ruang angkasa pertama yang
+                          melakukan pendekatan yang mengamati Neptunus dari
+                          dekat dan yang pertama mengunjungi empat planet di
+                          luar Bumi. Sorotan dari pertemuan terdapat 6 bulan
+                          baru dalam gambarnya yaitu Despina, Galate, Larissa,
+                          Proteus, Naiad dan Thalassa
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="timeline right">
+                    <div
+                      class="card"
+                      data-aos="fade-up"
+                      data-aos-duration="2000"
+                    >
+                      <div class="card-body p-4">
+                        <h6>(10 Oktober dan 5 Desember 1989)</h6>
+                        <h3>Kamera Voyager 2 Mati</h3>
+                        <p class="mb-0">
+                          Para insinyur mematikan kamera Voyager 2 karena mereka
+                          ingin menggunakan daya, memori komputer, dan kecepatan
+                          data untuk instrumen lain yang mengumpulkan data
+                          penting tentang angin matahari dan ruang antarbintang.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="timeline left">
+                    <div
+                      class="card"
+                      data-aos="fade-up"
+                      data-aos-duration="2000"
+                    >
+                      <div class="card-body p-4">
+                        <h6>(14 Februari 1990)</h6>
+                        <h3>Titik Biru Pucat dan Lainnya</h3>
+                        <p class="mb-0">
+                          Voyager 1 mengambil gambar terakhir misi “Solar System
+                          Family Potrait” ini adalah satu-satunya rangkaian
+                          gambar Venus, Bumi, Jupiter, Saturnus, Uranus, dan
+                          Neptunus yang tersusun sekitar matahari. Bumi
+                          ditangkap sebagai bintik kecil dalam seberkas sinar
+                          matahari yang tersebar dan menginspirasi Carl Sagan
+                          untuk berpikir tentang keunikan planet kita sebagai “a
+                          pale dot blue”.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="timeline right">
+                    <div
+                      class="card"
+                      data-aos="fade-up"
+                      data-aos-duration="2000"
+                    >
+                      <div class="card-body p-4">
+                        <h6>(17 Februari 1998)</h6>
+                        <h3>Runner Marathon</h3>
+                        <p class="mb-0">
+                          Voyager 1 melewati jarak Pioneer 10 untuk menjadi
+                          objek buatan manusia terjauh dari Bumi di Luar angkasa
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="timeline left">
+                    <div
+                      class="card"
+                      data-aos="fade-up"
+                      data-aos-duration="2000"
+                    >
+                      <div class="card-body p-4">
+                        <h6>(16 Desember 2004)</h6>
+                        <h3>Voyager 1 melintasi Termination Shock</h3>
+                        <p class="mb-0">
+                          Voyager 1 melintasi Termination Shock dimana angin
+                          matahari tiba-tiba melambat dan memanas dengan angin
+                          antarbintang. Hal ini menandai batas bagian dalam
+                          heliohealth yang merupakan lapisan luar bergolak dari
+                          gelembung yang dihembuskan matahari itu sendiri dan
+                          semua planet. Namun voyager 1 melewati guncangan
+                          antenna darat yang tidak dijadwalkan untuk
+                          mendengarkan data yang ditransmisikan pesawat ruang
+                          angkasa
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="timeline right">
+                    <div
+                      class="card"
+                      data-aos="fade-up"
+                      data-aos-duration="2000"
+                    >
+                      <div class="card-body p-4">
+                        <h6>(30 agustus 2007)</h6>
+                        <h3>Voyager 2 melintasi Termination Shock</h3>
+                        <p class="mb-0">
+                          Menyusul Voyager 1, Voyager 2 melintasi Termination
+                          Shock yaitu terminasi kedalam heliohealth, lapisan
+                          terluar dari gelembung yang dihembus matahari di
+                          sekelilingnya dan semua planet
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="timeline left">
+                    <div
+                      class="card"
+                      data-aos="fade-up"
+                      data-aos-duration="2000"
+                    >
+                      <div class="card-body p-4">
+                        <h6>(13 agustus 2012)</h6>
+                        <h3>The Ultimate Workhorse</h3>
+                        <p class="mb-0">
+                          Voyager 2 menjadi misi operasi terlama NASA ,
+                          memecahkan rekor sebelumnya untuk operasi
+                          berkelanjutan oleh Pioneer 6 (12.758 hari operasi
+                          mulai 16 desember 1965)
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="timeline right">
+                    <div
+                      class="card"
+                      data-aos="fade-up"
+                      data-aos-duration="2000"
+                    >
+                      <div class="card-body p-4">
+                        <h6>(25 agustus 2012)</h6>
+                        <h3>
+                          Objek Buatan Manusia Pertama di ruang Antarbintang
+                          (Interstellar)
+                        </h3>
+                        <p class="mb-0">
+                          Voyager 1 memasuki ruang antarbintang melewati
+                          heliopause yang merupakan batas antara gelembung
+                          matahari kita dan materi yang dikeluarkan oleh ledakan
+                          bintang lain. Hal ini pertama kali objek buatan
+                          manusia melintas ambang ruang antarbintang
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="timeline left">
+                    <div
+                      class="card"
+                      data-aos="fade-up"
+                      data-aos-duration="2000"
+                    >
+                      <div class="card-body p-4">
+                        <h6>(9 april 2013)</h6>
+                        <h3>Dering Ruang Antarbintang</h3>
+                        <p class="mb-0">
+                          Voyager 1 melakukan pengukuran pertama kepadatan
+                          medium antarbintang, ketika gelombang yang disebabkan
+                          oleh lontaran massa korona dari matahari mencapai
+                          Voyager 1 dan menyebabkan plasma di ruang antarbintang
+                          bordering. Nada dering yang tinggi menunjukkan
+                          kepadatan plasma di sekitar voyager 1 lebih dari 40
+                          kali lebih tinggi dari yang diukur sebelumnya
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="timeline right">
+                    <div
+                      class="card"
+                      data-aos="fade-up"
+                      data-aos-duration="2000"
+                    >
+                      <div class="card-body p-4">
+                        <h6>(5 November 2018)</h6>
+                        <h3>Voyager 2 Memasuki Ruang Antarbintang</h3>
+                        <p class="mb-0">
+                          Untuk kedua kalinya dalam sejarah, objek buatan
+                          manusia mencapai ruang di antara bintang-bintang
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="timeline left">
+                    <div
+                      class="card"
+                      data-aos="fade-up"
+                      data-aos-duration="2000"
+                    >
+                      <div class="card-body p-4">
+                        <h6>(26 Maret 2020)</h6>
+                        <h3>Meninjau Kembali Data Voyager 2</h3>
+                        <p class="mb-0">
+                          Ilmuwan temukan satu rahasia delapan setengah tahun
+                          dalam tur besar tata surya. Tanpa sepengetahuan
+                          seluruh komunitas fisika ruang angkasa, 34 tahun yang
+                          lalu Voyager 2 terbang melalui plasmoid, gelembung
+                          magnet raksasa yang mungkin telah membawa atmosfer
+                          Uranus ke luar angkasa.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="timeline right">
+                    <div
+                      class="card"
+                      data-aos="fade-up"
+                      data-aos-duration="2000"
+                    >
+                      <div class="card-body p-4">
+                        <h6>(Sekarang)</h6>
+                        <h3>Kedua Voyager Masih Bekerja</h3>
+                        <p class="mb-0">
+                          Bahkan hingga saat ini, kedua Voyager baik 1 maupun 2
+                          masih bekerja dan melintasi luar angkasa. Meskipun ada
+                          beberapa instrumen yang telah di non-aktifkan
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -56,7 +464,7 @@
 
     <!-- Footer -->
     <footer class="text-center text-white text-dark">
-      <div class="text-center p-3" style="background-color: #0a4275">
+      <div class="text-center p-2" style="background-color: #0a4275">
         @ Tim Odading, Politeknik Negeri Malang (2022)
       </div>
     </footer>
@@ -66,5 +474,10 @@
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <!-- Custom scripts -->
     <script type="text/javascript"></script>
+    <!-- JS AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
