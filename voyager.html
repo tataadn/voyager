@@ -50,7 +50,11 @@
             <span
               class="navbar-toggler-icon d-flex justify-content-start align-items-center"
             >
-              <i class="fas fa-bars"></i>
+              <!-- <i class="fas fa-bars"></i> -->
+              <i
+                class="fas fa-rocket fa-flip-horizontal"
+                style="color: #ffffff"
+              ></i>
             </span>
           </button>
           <div class="collapse navbar-collapse" id="navbarExample01">
@@ -63,14 +67,6 @@
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="timeline.html"
                   ><b>Linimasa Misi</b></a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  aria-current="page"
-                  href="golden-record.html"
-                  ><b>Piringan Emas</b></a
                 >
               </li>
             </ul>
@@ -161,26 +157,227 @@
       >
         <div style="background-color: rgba(0, 0, 0, 0.7)">
           <div class="container py-5">
-            <div class="row d-flex align-items-center justify-content-center">
-              <div class="col-lg-5 p-3">
-                <div class="card text-center">
-                  <div class="card-body">
-                    <h6 class="card-text lh-base">
-                      Pesawat ruang angkasa tanpa awak seberat 733 kg yang
-                      berhasil mengunjungi Jupiter dan Saturnus di akhir tahun
-                      70an dan awal 80an
-                    </h6>
+            <div class="row text-center justify-content-center">
+              <div class="col-md-3 p-5">
+                <!-- Button trigger modal -->
+                <a
+                  type="button"
+                  data-mdb-toggle="modal"
+                  data-mdb-target="#exampleModal"
+                >
+                  <div class="bg-image rounded-6">
+                    <img
+                      src="https://mdbootstrap.com/img/new/ecommerce/vertical/010.jpg"
+                      class="w-100"
+                      alt="Alternative text"
+                    />
+                    <!-- Mask -->
+                    <div
+                      class="mask"
+                      style="
+                        background: linear-gradient(
+                          to bottom,
+                          hsla(0, 0%, 0%, 0),
+                          hsla(263, 80%, 20%, 0.5)
+                        );
+                      "
+                    >
+                      <div
+                        class="bottom-0 d-flex align-items-end h-100 text-center justify-content-center"
+                      >
+                        <div>
+                          <h4 class="fw-bold text-white mb-4">1st Fun Fact</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="exampleModal"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">
+                          Fun Fact #1
+                        </h5>
+                      </div>
+                      <div class="modal-body">
+                        Pesawat ruang angkasa tanpa awak seberat 733 kg yang
+                        berhasil mengunjungi Jupiter dan Saturnus di akhir tahun
+                        70an dan awal 80an
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-danger"
+                          data-mdb-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-5 p-3">
-                <div class="card text-center">
-                  <div class="card-body">
-                    <h6 class="card-text lh-base">
-                      Objek buatan manusia dengan posisi terjauh dari bumi,
-                      dengan jarak sekitar 100 Unit Astronomi atau sekitar 14
-                      jam cahaya.
-                    </h6>
+              <div class="col-md-3 p-5">
+                <!-- Button trigger modal -->
+                <a
+                  type="button"
+                  data-mdb-toggle="modal"
+                  data-mdb-target="#exampleModal2"
+                >
+                  <div class="bg-image rounded-6">
+                    <img
+                      src="https://mdbootstrap.com/img/new/ecommerce/vertical/010.jpg"
+                      class="w-100"
+                      alt="Alternative text"
+                    />
+                    <!-- Mask -->
+                    <div
+                      class="mask"
+                      style="
+                        background: linear-gradient(
+                          to bottom,
+                          hsla(0, 0%, 0%, 0),
+                          hsla(263, 80%, 20%, 0.5)
+                        );
+                      "
+                    >
+                      <div
+                        class="bottom-0 d-flex align-items-end h-100 text-center justify-content-center"
+                      >
+                        <div>
+                          <h4 class="fw-bold text-white mb-4">2nd Fun Fact</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <!-- <button
+                  type="button"
+                  class="btn btn-primary btn-lg"
+                  data-mdb-toggle="modal"
+                  data-mdb-target="#exampleModal2"
+                >
+                  2nd Fun Fact
+                </button> -->
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="exampleModal2"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel2"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel2">
+                          Fun Fact #2
+                        </h5>
+                      </div>
+                      <div class="modal-body">
+                        Objek buatan manusia dengan posisi terjauh dari bumi,
+                        dengan jarak sekitar 100 Unit Astronomi atau sekitar 14
+                        jam cahaya.
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-danger"
+                          data-mdb-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 p-5">
+                <!-- Button trigger modal -->
+                <a
+                  type="button"
+                  data-mdb-toggle="modal"
+                  data-mdb-target="#exampleModal3"
+                >
+                  <div class="bg-image rounded-6">
+                    <img
+                      src="https://mdbootstrap.com/img/new/ecommerce/vertical/010.jpg"
+                      class="w-100"
+                      alt="Alternative text"
+                    />
+                    <!-- Mask -->
+                    <div
+                      class="mask"
+                      style="
+                        background: linear-gradient(
+                          to bottom,
+                          hsla(0, 0%, 0%, 0),
+                          hsla(263, 80%, 20%, 0.5)
+                        );
+                      "
+                    >
+                      <div
+                        class="bottom-0 d-flex align-items-end h-100 text-center justify-content-center"
+                      >
+                        <div>
+                          <h4 class="fw-bold text-white mb-4">3rd Fun Fact</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <!-- <button
+                  type="button"
+                  class="btn btn-primary btn-lg"
+                  data-mdb-toggle="modal"
+                  data-mdb-target="#exampleModal3"
+                >
+                  3rd Fun Fact
+                </button> -->
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="exampleModal3"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel3"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel3">
+                          Fun Fact #3
+                        </h5>
+                      </div>
+                      <div class="modal-body">
+                        Berbeda dengan Voyager 1, Voyager 2 mengikuti lintasan
+                        atau trajektori yang lebih lambat sehingga dapat
+                        bertahan pada jalur ekliptik (ecliptic) yang membuat
+                        Voyager 2 dapat dikirim ke Uranus dan Neptunus dengan
+                        bantuan gravitasi sewaktu pertemuan dengan Saturnus pada
+                        tahun 1981.
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-danger"
+                          data-mdb-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -189,6 +386,491 @@
         </div>
       </div>
     </section>
+
+    <section>
+      <div
+        class="bg-image"
+        style="background-image: url('img/starry-night-sky.jpg')"
+      >
+        <div style="background-color: rgba(0, 0, 0, 0.7)">
+          <div class="container py-3">
+            <div class="row d-flex align-items-center justify-content-center">
+              <div class="col-lg-6 p-3">
+                <h4 class="p-2 text-center text-white">
+                  Status Komponen Voyager 1
+                </h4>
+                <div class="table-responsive">
+                  <table class="table align-middle mb-0 bg-white">
+                    <thead class="bg-light">
+                      <tr>
+                        <th>Instrumen Ilmiah</th>
+                        <th>Status</th>
+                        <th>Keterangan</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">
+                              Cosmic Ray Subsystem (CRS)
+                            </p>
+                          </div>
+                        </td>
+                        <td>
+                          <h6>
+                            <span
+                              class="badge badge-success rounded-pill d-inline"
+                              >ON</span
+                            >
+                          </h6>
+                        </td>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">-</p>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">
+                              Low-Energy Charged Particles (LECP)
+                            </p>
+                          </div>
+                        </td>
+                        <td>
+                          <h6>
+                            <span
+                              class="badge badge-success rounded-pill d-inline"
+                              >ON</span
+                            >
+                          </h6>
+                        </td>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">-</p>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">Magnetometer (MAG)</p>
+                          </div>
+                        </td>
+                        <td>
+                          <h6>
+                            <span
+                              class="badge badge-success rounded-pill d-inline"
+                              >ON</span
+                            >
+                          </h6>
+                        </td>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">-</p>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">
+                              Plasma Wave Subsystem (PWS)
+                            </p>
+                          </div>
+                        </td>
+                        <td>
+                          <h6>
+                            <span
+                              class="badge badge-success rounded-pill d-inline"
+                              >ON</span
+                            >
+                          </h6>
+                        </td>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">-</p>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">Plasma Science (PLS)</p>
+                          </div>
+                        </td>
+                        <td>
+                          <h6>
+                            <span
+                              class="badge badge-danger rounded-pill d-inline"
+                              >OFF</span
+                            >
+                          </h6>
+                        </td>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">Kinerja yang menurun</p>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">
+                              Imaging Science Subsystem (ISS)
+                            </p>
+                          </div>
+                        </td>
+                        <td>
+                          <h6>
+                            <span
+                              class="badge badge-danger rounded-pill d-inline"
+                              >OFF</span
+                            >
+                          </h6>
+                        </td>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">Menghemat daya</p>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">
+                              Infrared Interferometer Spectrometer and
+                              Radiometer (IRIS)
+                            </p>
+                          </div>
+                        </td>
+                        <td>
+                          <h6>
+                            <span
+                              class="badge badge-danger rounded-pill d-inline"
+                              >OFF</span
+                            >
+                          </h6>
+                        </td>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">Menghemat daya</p>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">
+                              Photopolarimeter Subsystem (PPS)
+                            </p>
+                          </div>
+                        </td>
+                        <td>
+                          <h6>
+                            <span
+                              class="badge badge-danger rounded-pill d-inline"
+                              >OFF</span
+                            >
+                          </h6>
+                        </td>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">Kinerja yang menurun</p>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">
+                              Planetary Radio Astronomy (PRA)
+                            </p>
+                          </div>
+                        </td>
+                        <td>
+                          <h6>
+                            <span
+                              class="badge badge-danger rounded-pill d-inline"
+                              >OFF</span
+                            >
+                          </h6>
+                        </td>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">Menghemat daya</p>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">
+                              Ultraviolet Spectrometer (UVS)
+                            </p>
+                          </div>
+                        </td>
+                        <td>
+                          <h6>
+                            <span
+                              class="badge badge-danger rounded-pill d-inline"
+                              >OFF</span
+                            >
+                          </h6>
+                        </td>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">Menghemat daya</p>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="col-lg-6 p-3">
+                <h4 class="p-2 text-center text-white">
+                  Status Komponen Voyager 2
+                </h4>
+                <div class="table-responsive">
+                  <table class="table align-middle mb-0 bg-white">
+                    <thead class="bg-light">
+                      <tr>
+                        <th>Instrumen Ilmiah</th>
+                        <th>Status</th>
+                        <th>Keterangan</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">
+                              Cosmic Ray Subsystem (CRS)
+                            </p>
+                          </div>
+                        </td>
+                        <td>
+                          <h6>
+                            <span
+                              class="badge badge-success rounded-pill d-inline"
+                              >ON</span
+                            >
+                          </h6>
+                        </td>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">-</p>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">
+                              Low-Energy Charged Particles (LECP)
+                            </p>
+                          </div>
+                        </td>
+                        <td>
+                          <h6>
+                            <span
+                              class="badge badge-success rounded-pill d-inline"
+                              >ON</span
+                            >
+                          </h6>
+                        </td>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">-</p>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">Magnetometer (MAG)</p>
+                          </div>
+                        </td>
+                        <td>
+                          <h6>
+                            <span
+                              class="badge badge-success rounded-pill d-inline"
+                              >ON</span
+                            >
+                          </h6>
+                        </td>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">-</p>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">
+                              Plasma Wave Subsystem (PWS)
+                            </p>
+                          </div>
+                        </td>
+                        <td>
+                          <h6>
+                            <span
+                              class="badge badge-success rounded-pill d-inline"
+                              >ON</span
+                            >
+                          </h6>
+                        </td>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">-</p>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">Plasma Science (PLS)</p>
+                          </div>
+                        </td>
+                        <td>
+                          <h6>
+                            <span
+                              class="badge badge-success rounded-pill d-inline"
+                              >ON</span
+                            >
+                          </h6>
+                        </td>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">-</p>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">
+                              Imaging Science Subsystem (ISS)
+                            </p>
+                          </div>
+                        </td>
+                        <td>
+                          <h6>
+                            <span
+                              class="badge badge-danger rounded-pill d-inline"
+                              >OFF</span
+                            >
+                          </h6>
+                        </td>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">Menghemat daya</p>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">
+                              Infrared Interferometer Spectrometer and
+                              Radiometer (IRIS)
+                            </p>
+                          </div>
+                        </td>
+                        <td>
+                          <h6>
+                            <span
+                              class="badge badge-danger rounded-pill d-inline"
+                              >OFF</span
+                            >
+                          </h6>
+                        </td>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">Menghemat daya</p>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">
+                              Photopolarimeter Subsystem (PPS)
+                            </p>
+                          </div>
+                        </td>
+                        <td>
+                          <h6>
+                            <span
+                              class="badge badge-danger rounded-pill d-inline"
+                              >OFF</span
+                            >
+                          </h6>
+                        </td>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">Kinerja yang menurun</p>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">
+                              Planetary Radio Astronomy (PRA)
+                            </p>
+                          </div>
+                        </td>
+                        <td>
+                          <h6>
+                            <span
+                              class="badge badge-danger rounded-pill d-inline"
+                              >OFF</span
+                            >
+                          </h6>
+                        </td>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">Menghemat daya</p>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">
+                              Ultraviolet Spectrometer (UVS)
+                            </p>
+                          </div>
+                        </td>
+                        <td>
+                          <h6>
+                            <span
+                              class="badge badge-danger rounded-pill d-inline"
+                              >OFF</span
+                            >
+                          </h6>
+                        </td>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <p class="fw-bold mb-1">Menghemat daya</p>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Footer -->
     <footer class="text-center text-white text-dark">
       <div class="text-center p-2" style="background-color: #0a4275">
